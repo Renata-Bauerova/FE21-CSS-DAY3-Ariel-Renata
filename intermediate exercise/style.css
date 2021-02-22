@@ -5,23 +5,22 @@
 }
 
 #main-container {
-    border: 1px solid black;
-    width: 25%;
+    border: 4px solid black;
+    width: 40%;
     margin: auto;
     font-family: "Roboto", sans-serif;
-    
-
+    font-weight: bold;
 }
 #child-main-container {
-    margin: 5px;
+    margin: 5px 20px;
 }
 /*hr lines*/
 .bold-hr {
-    border: 4px solid black;
+    border: 7px solid black;
 }
 
 .middle-hr {
-    border: 3px solid black;
+    border: 4px solid black;
 }
 
 .normal-hr {
@@ -37,10 +36,7 @@
 #cup{
     text-align: right;
 }
-p {
-    font-size: 9px;
-    font-weight: bold;
-}
+
 
 .div-flex {
     display: flex;
@@ -51,7 +47,7 @@ p {
 
 .flex-in-flex {
     display: flex;
-    width: 30%;
+    width: 38%;
     justify-content: space-between
     
 }
