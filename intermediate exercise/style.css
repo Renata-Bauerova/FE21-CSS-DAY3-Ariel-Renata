@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-container {
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+#child-main-container {
+    margin: 5px;
+}
+/*hr lines*/
+.bold-hr {
+    border: 4px solid black;
+}
+
+.middle-hr {
+    border: 3px solid black;
+}
+
+.normal-hr {
+    border: 1px solid black;
+}
+
+#daily-hr {
+    border: 1px solid rgb(0, 0, 0);
+}
+.grey-hr{
+    border: 1px solid rgba(128, 128, 128, 0.651);
+}
+#cup{
+    text-align: right;
+}
+p {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.div-flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.flex-in-flex {
+    display: flex;
+    width: 30%;
+    justify-content: space-between
+    
+}
+
+
+.margin-left {
+    margin-left: 20px;
+}
+
+#daily-value {
+    justify-content: flex-end;
+}
+#last-div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
